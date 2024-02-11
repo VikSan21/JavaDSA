@@ -30,9 +30,19 @@ public class InvertedRotatedHalfPyramid {
             System.out.println();
         }
     }
+
+    public static void invertedHalfPyramid_numbers(int rowcols){
+        for( int i = 1; i <= rowcols; ++i){
+
+            for(int j = 1; j <= rowcols -i + 1; ++j)
+                System.out.print(j);
+
+            System.out.println();
+        }
+    }
     
     public static void main(String[] args) {
-        invertedRotatedHalfPyramid_2(5);
+        invertedHalfPyramid_numbers(5);
     }
     
 }
