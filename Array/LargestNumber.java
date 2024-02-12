@@ -15,6 +15,7 @@ public class LargestNumber {
     public static void main(String[] args) {
         int[] array = new int[10];
 
+        //to get the array value from the user
         LinearSearch.getArrayValue(array);
 
         System.out.println("Largest number : " + getLargestNumber(array));
