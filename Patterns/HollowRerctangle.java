@@ -22,4 +22,22 @@ public class HollowRerctangle{
         hollowRerctangle(10, 5);
         hollowSquare(5);
     }
+
+    /* 
+            Hollow Rectangle 10*5
+     
+
+                *  *  *  *  * 
+                *           * 
+                *           * 
+                *           * 
+                *           * 
+                *           *
+                *           *
+                *           *
+                *           * 
+                *  *  *  *  *
+     
+
+     */
 }

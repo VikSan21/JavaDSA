@@ -42,7 +42,29 @@ public class InvertedRotatedHalfPyramid {
     }
     
     public static void main(String[] args) {
+        invertedRotatedHalfPyramid_1(5);
         invertedHalfPyramid_numbers(5);
     }
+
+    /* 
+            Inverted Rotated Half Pyramid
+
+                         * 
+                      *  *
+                   *  *  *
+                *  *  *  *
+             *  *  *  *  *
+             
+
+
+            Inverted Half Pyramid
+            12345
+            1234
+            123
+            12
+            1
+
+
+     */
     
 }
