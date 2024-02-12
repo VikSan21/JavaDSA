@@ -14,7 +14,7 @@ package Patterns;
 public class FloydsTriangle {
 
 
-    public static void floydsTriangle(int rows){
+    public static void printFloydsTriangle(int rows){
         int count = 1;
         for(int i = 1; i <= rows; ++i){
 
@@ -27,7 +27,7 @@ public class FloydsTriangle {
     }
 
     public static void main(String[] args) {
-        floydsTriangle(5);
+        printFloydsTriangle(5);
     }
     
 }
