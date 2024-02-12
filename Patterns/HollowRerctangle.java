@@ -2,7 +2,7 @@ package Patterns;
 
 public class HollowRerctangle{
 
-    public static void hollowRerctangle(int rows, int cols){
+    public static void printHollowRerctangle(int rows, int cols){
         for(int i = 1; i <= rows; ++i){
             for(int j = 1; j <= cols; ++j){
                 if(i == 1 || i == rows || j == 1 || j ==cols)
@@ -14,13 +14,13 @@ public class HollowRerctangle{
         }
     }
 
-    public static void hollowSquare(int rowcols){
-        hollowRerctangle(rowcols, rowcols);
+    public static void printHollowSquare(int rowcols){
+        printHollowRerctangle(rowcols, rowcols);
     }
 
     public static void main(String[] args) {
-        hollowRerctangle(10, 5);
-        hollowSquare(5);
+        printHollowRerctangle(10, 5);
+        printHollowSquare(5);
     }
 
     /* 
