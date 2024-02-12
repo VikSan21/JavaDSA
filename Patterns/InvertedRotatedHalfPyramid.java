@@ -3,7 +3,7 @@ package Patterns;
 public class InvertedRotatedHalfPyramid {
 
     //this is the first method
-    public static void invertedRotatedHalfPyramid_1(int rows){
+    public static void printInvertedRotatedHalfPyramid_1(int rows){
         for( int i = 1; i <= rows; ++i){
 
             for(int j = 1; j <= rows; ++j){
@@ -18,7 +18,7 @@ public class InvertedRotatedHalfPyramid {
     }
 
     //this is the second method
-    public static void invertedRotatedHalfPyramid_2(int rows){
+    public static void printInvertedRotatedHalfPyramid_2(int rows){
         for( int i = 1; i <= rows; ++i){
 
             for(int space = 1; space <= rows - i; ++space)
@@ -31,7 +31,7 @@ public class InvertedRotatedHalfPyramid {
         }
     }
 
-    public static void invertedHalfPyramid_numbers(int rows){
+    public static void printInvertedHalfPyramid_numbers(int rows){
         for( int i = 1; i <= rows; ++i){
 
             for(int j = 1; j <= rows -i + 1; ++j)
@@ -42,8 +42,8 @@ public class InvertedRotatedHalfPyramid {
     }
     
     public static void main(String[] args) {
-        invertedRotatedHalfPyramid_1(5);
-        invertedHalfPyramid_numbers(5);
+        printInvertedRotatedHalfPyramid_1(5);
+        printInvertedHalfPyramid_numbers(5);
     }
 
     /* 
