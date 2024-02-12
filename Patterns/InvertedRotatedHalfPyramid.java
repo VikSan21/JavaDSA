@@ -3,11 +3,11 @@ package Patterns;
 public class InvertedRotatedHalfPyramid {
 
     //this is the first method
-    public static void invertedRotatedHalfPyramid_1(int rowcols){
-        for( int i = 1; i <= rowcols; ++i){
+    public static void invertedRotatedHalfPyramid_1(int rows){
+        for( int i = 1; i <= rows; ++i){
 
-            for(int j = 1; j <= rowcols; ++j){
-                if(j <= rowcols - i)
+            for(int j = 1; j <= rows; ++j){
+                if(j <= rows - i)
                     System.out.print("   ");
                 else
                     System.out.print(" * ");
@@ -18,10 +18,10 @@ public class InvertedRotatedHalfPyramid {
     }
 
     //this is the second method
-    public static void invertedRotatedHalfPyramid_2(int rowcols){
-        for( int i = 1; i <= rowcols; ++i){
+    public static void invertedRotatedHalfPyramid_2(int rows){
+        for( int i = 1; i <= rows; ++i){
 
-            for(int space = 1; space <= rowcols - i; ++space)
+            for(int space = 1; space <= rows - i; ++space)
                 System.out.print("   ");
 
             for(int stars = 1; stars <= i; ++stars)
@@ -31,10 +31,10 @@ public class InvertedRotatedHalfPyramid {
         }
     }
 
-    public static void invertedHalfPyramid_numbers(int rowcols){
-        for( int i = 1; i <= rowcols; ++i){
+    public static void invertedHalfPyramid_numbers(int rows){
+        for( int i = 1; i <= rows; ++i){
 
-            for(int j = 1; j <= rowcols -i + 1; ++j)
+            for(int j = 1; j <= rows -i + 1; ++j)
                 System.out.print(j);
 
             System.out.println();
