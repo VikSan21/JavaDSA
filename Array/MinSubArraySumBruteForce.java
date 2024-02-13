@@ -24,12 +24,12 @@ public class MinSubArraySumBruteForce {
     }
 
 
-public static void main(String[] args) {
+    public static void main(String[] args) {
+    
+        int[] array = new int[]{21, 85, 45, 69, 78, 365, 45, 215, 85, 452};
 
-    int[] array = new int[]{21, 85, 45, 69, 78, 365, 45, 215, 85, 452};
+        printMinSubArraySum(array);
 
-    printMinSubArraySum(array);
-
-}
+    }
     
 }
