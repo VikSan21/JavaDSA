@@ -30,8 +30,6 @@ public class BinaryDecimalConversion {
         return decimal;
     }
 
-    
-
     public static void main(String[] args) {
         //To take the input from user
         Scanner scan = new Scanner(System.in);
@@ -50,20 +48,16 @@ public class BinaryDecimalConversion {
                         System.out.println("Output : " +decimalToBinary(number));
                         break;
                     }
-                    
-
                 case 2:
                     {
                         System.out.println("Output : " + binaryToDecimal(number));
                         break;
                     } 
-                    
                 case 3:
                     {
                         scan.close();
                         break loop;
                     }     
-            
                 default:
                     {
                         System.out.println("Invalid Input!");
